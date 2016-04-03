@@ -2,7 +2,7 @@
 
 A nifty little bookmarklet that scrapes your Uber trip history and spits out a CSV file, using [artoo.js](http://medialab.github.io/artoo/) - inspired by hours trying to wrangle with the appearingly intentionally handicapped Uber Developer API (would you believe this isn't possible using it?) + [this awesome gist.](https://gist.github.com/Yomguithereal/5d792d88ad6f1fe7c15d)
 
-Once you have your CSV, the extacted data can be easily visualized using the [Uber Data Visualizer](#) project.
+Once you have your CSV, the extacted data can be easily visualized using the [Uber Data Visualizer](http://ummjackson.github.io/uber-data-visualizer/) project.
 
 ## How To Use
 
