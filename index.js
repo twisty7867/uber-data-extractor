@@ -11,7 +11,7 @@
       car_type: function($) { return $(this).closest('tr').prev().find('td:nth-child(5)').text(); },
       city: function($) { return $(this).closest('tr').prev().find('td:nth-child(6)').text(); },
       price: {sel: 'h3', method: 'text'},
-      payment_method: function($) { return $(this).closest('tr').prev().find('td:nth-child(7) span:nth-child(2)').text().slice(-4); },
+      payment_method: function($) { return $(this).closest('tr').prev().find('td:nth-child(7) span:nth-child(2)').text().replace(/[•\s]/g,''); },
       start_time: { sel: '.trip-address:nth-child(1) p', method:'text'},
       start_address: { sel: '.trip-address:nth-child(1) h6', method:'text'},
       end_time: { sel: '.trip-address:nth-child(2) p', method:'text'},
